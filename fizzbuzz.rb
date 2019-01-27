@@ -9,6 +9,8 @@ def fizzbuzz(input)
     "Fizz"
   elsif input % 5 == 0
     "Buzz"
+  else
+    "Not divisible by 3 or 5"
   end
   
 end
